@@ -77,9 +77,11 @@ const Footer = () => {
             <p>Tinkune, Dharan</p>
             <p>Koshi, PIN 56700, Nepal</p>
             <p className="email-id">
-              <Link to="mailto:researchhub@ioepc.edu.np">researchhub@ioepc.edu.np</Link>
+              <a href="mailto:researchhub@ioepc.edu.np">researchhub@ioepc.edu.np</a>
             </p>
-            <h4>+977 - 9742555038</h4>
+            <h4> <a href="tel:+9779742555038">
+                   +977 - 9742555038
+              </a></h4>
           </div>
           <div className="col">
             <h3>

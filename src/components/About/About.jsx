@@ -19,13 +19,13 @@ const About = () => {
             </p>
           </div>
           <div className="hero-image">
-            <img className="img" src="/about/1.jpg" alt="" />
+            <img className="img" src="https://ik.imagekit.io/vjhkxhz0h/476436555_612436888201191_5061856758557920078_n.jpg" alt="" />
           </div>
         </div>
 
         <div className="container">
           <div className="hero-image">
-            <img className="img" src="/about/2.jpg" alt="" />
+            <img className="img" src="https://ik.imagekit.io/vjhkxhz0h/telescope.jpg" alt="" />
           </div>
           <div className="hero-content">
             <h2>Our Mission</h2>
@@ -49,13 +49,13 @@ const About = () => {
             </p>
           </div>
           <div className="hero-image">
-            <img className="img" src="/about/3.jpg" alt="" />
+            <img className="img" src="https://ik.imagekit.io/vjhkxhz0h/469449479_570776775689360_7018401943181221304_n.jpg" alt="" />
           </div>
         </div>
 
         <div className="container">
           <div className="hero-image">
-            <img className="img" src="/about/4.jpg" alt="" />
+            <img className="img" src="https://ik.imagekit.io/vjhkxhz0h/469149025_570776682356036_3036211821001453429_n.jpg" alt="" />
           </div>
           <div className="hero-content">
             <h2>Annual Transformation</h2>
@@ -75,13 +75,13 @@ const About = () => {
             </p>
           </div>
           <div className="hero-image">
-            <img className="img" src="/about/5.jpg" alt="" />
+            <img className="img" src="https://ik.imagekit.io/vjhkxhz0h/469178117_570776305689407_130909940393279594_n.jpg" alt="" />
           </div>
         </div>
 
         <div className="container">
           <div className="hero-image">
-            <img className="img" src="/about/6.jpg" alt="" />
+            <img className="img" src="https://ik.imagekit.io/vjhkxhz0h/469096827_570776632356041_585186053127739705_n.jpg" alt="" />
           </div>
           <div className="hero-content">
             <h2>Preparing minds for success</h2>

@@ -12,10 +12,63 @@ const CommitteePage = () => {
 
       <div className="member-container">
         <div className="cardBox">
-          <h2 className="committee-top">Team Lead</h2>
+          <h2 className="committee-top">Advisor</h2>
           <div className="team">
             {members.map((member) => {
-              if (member.team === "Lead") {
+              if (member.team === "advise") {
+                return (
+                  <div key={member.id}>
+                    <Card
+                      name={member.name}
+                      src={member.src}
+                      title={member.title}
+                      linkedin={member.linkedin}
+                      facebook={member.facebook}
+                      instagram={member.instagram}
+                      snapchat={member.snapchat}
+                      tiktok={member.tiktok}
+                      x={member.x}
+                      github={member.github}
+                    />
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </div>
+        </div>
+        <div className="cardBox">
+          <h2 className="committee-top">Coordinator</h2>
+          <div className="team">
+            {members.map((member) => {
+              if (member.team === "coordinate") {
+                return (
+                  <div key={member.id}>
+                    <Card
+                      name={member.name}
+                      src={member.src}
+                      title={member.title}
+                      linkedin={member.linkedin}
+                      facebook={member.facebook}
+                      instagram={member.instagram}
+                      snapchat={member.snapchat}
+                      tiktok={member.tiktok}
+                      x={member.x}
+                      github={member.github}
+                    />
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </div>
+        </div>
+         
+         <div className="cardBox">
+          <h2 className="committee-top">Vice Coordinator</h2>
+          <div className="team">
+            {members.map((member) => {
+              if (member.team === "vice-coordinate") {
                 return (
                   <div key={member.id}>
                     <Card
@@ -39,10 +92,10 @@ const CommitteePage = () => {
         </div>
 
         <div className="cardBox">
-          <h2 className="committee-header">Correspondent</h2>
+          <h2 className="committee-header">Treasurer</h2>
           <div className="team">
             {members.map((member) => {
-              if (member.team === "Correspondent") {
+              if (member.team === "treasurer") {
                 return (
                   <div key={member.id}>
                     <Card
@@ -65,10 +118,10 @@ const CommitteePage = () => {
         </div>
 
         <div className="cardBox">
-          <h2 className="committee-header">Technical Team</h2>
+          <h2 className="committee-header">Project Manager</h2>
           <div className="team">
             {members.map((member) => {
-              if (member.team === "Technical") {
+              if (member.team === "manage") {
                 return (
                   <div key={member.id}>
                     <Card

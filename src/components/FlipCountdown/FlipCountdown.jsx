@@ -8,7 +8,7 @@ const FlipCountdown = () => {
     <>
       <h1 className="hero-header">TIME REMAINING...</h1>
       <FlipClockCountdown
-        to={new Date("2025-01-31T04:00:00")} // Set your time here
+        to={new Date("2026-01-31T04:00:00")} // Set your time here
         className="flip-clock"
         style={{
           display: "flex",

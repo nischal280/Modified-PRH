@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import Provider from "./ContextHook/Provider";
 import AnimatedBg from "./components/ParticleBg/AnimatedBg";
+// npm start  use this top start your terninal
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
